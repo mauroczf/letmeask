@@ -52,7 +52,13 @@
             align-self: center;
         }
 
-        form{
+        h2 {
+            font-size: 24px;
+            margin: 64px 0 24px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .form {
             height: 50px;
             border-radius: 8px;
             padding: 0 16px;
@@ -60,14 +66,26 @@
             border: 1px solid #a8a8b3;
         }
 
-        button{
+        p {
+            font-size: 14px;
+            color: #737380;
+            margin-top: 16px;
+            
+            a{
+                color: #e559f9, !important;
+                text-decoration: none;
+            }
+
+        }
+
+        button {
             margin-top: 16px;
         }
-        button, input{
+        button, input {
             width: 100%;
         }
 
-        .create-room{
+        .create-room {
             margin-top: 64px;
             height: 50px;
             border-radius: 8px;
@@ -88,12 +106,12 @@
                 margin-right: 8px;
             }
 
-            &:hover{
+            &:hover {
                 filter: brightness(0.9);
             }
         }
     
-        .separator{
+        .separator {
             font-size: 14px;
             color: #a8a8b3;
 
